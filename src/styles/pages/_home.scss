@@ -1,0 +1,46 @@
+.web-title {
+    text-align: center;
+}
+
+.commandCreator {
+    margin: 2rem;
+    background-color: $dark-bg;
+    width: calc(100% - 4rem);
+    border-radius: 5px;
+
+    .formInput {
+        background-color: $discord-input;
+        border: none;
+        width: calc(100% - 2rem);
+        min-height: 2rem;
+        padding: 0.5rem;
+        border-radius: 5px;
+        margin: 1rem;
+        color: $discord-text;
+        font-size: medium;
+
+        &:focus {
+            outline: none;
+        }
+
+        &::placeholder {
+            color: $placeholder;
+        }
+    }
+
+    .commandButton {
+        min-width: 3rem;
+        min-height: 1rem;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+        padding: 0.5rem;
+        background-color: $check;
+        color: #fff;
+        border-radius: 5px;
+        font-size: medium;
+    }
+
+    .red {
+        background-color: $delete;
+    }
+}

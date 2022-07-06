@@ -1,0 +1,20 @@
+.preview {
+    margin: 2rem;
+}
+
+.slashRender {
+    background-color: $discord-input;
+    width: calc(100% - 4rem);
+    min-height: 2rem;
+    margin: 2rem;
+    border-radius: 5px;
+    padding: 0.5rem;
+
+    .namePreview {
+        font-size: medium;
+    }
+
+    .placeholder {
+        color: $placeholder;
+    }
+}

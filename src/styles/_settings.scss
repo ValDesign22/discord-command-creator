@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "roboto";
+    src: url(../assets/fonts/Roboto-Italic.ttf);
+}
+
+$roboto: "roboto";
+$discord-bg: #2F3136;
+$dark-bg: #1d1d1d;
+$discord-text: #b3b4b7;
+$placeholder: #65746e;
+$discord-input: #40444b;
+$check: #43b581;
+$delete: #f04747;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $discord-bg;
+    color: $discord-text;
+    font-family: $roboto;
+}
+
+button {
+    border: none;
+}
